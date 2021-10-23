@@ -28,6 +28,29 @@
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/Start_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="113dp"
+        android:text="@string/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/TestToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/testToolbar"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="105dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
